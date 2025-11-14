@@ -1,0 +1,194 @@
+@import "tailwindcss";
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.25s ease-out;
+}
+
+@theme {
+  /* Brand colors (from your config) */
+  --color-background-light: #303030;
+  --color-background-main: #181818;
+  --color-background-dark: #000000;
+
+  --color-primary-main: #00E7FF;
+  --color-primary-light: #8AF3FF;
+  --color-primary-dark: #00BCD1;
+
+  --color-secondary-main: #9931EF;
+  --color-secondary-light: #ab63e6ff;
+  --color-secondary-dark: #7D1B91;
+
+  --color-border-main: #B6B6B6;
+  --color-border-light: #CFCFCF;
+  --color-border-dark: #9E9E9E;
+
+  --color-text-main: #d1d5db;
+  --color-text-light: #ffffff;
+  --color-text-dark: #101828;
+  --color-text-inverse: #00E7FF;
+
+  --color-success-main: #10b981;
+  --color-success-light: #34d399;
+  --color-success-dark: #059669;
+
+  --color-error-main: #ef4444;
+  --color-error-light: #f87171;
+  --color-error-dark: #dc2626;
+
+  --color-warn-main: #FFB62E;
+  --color-warn-light: #FFC65C;
+  --color-warn-dark: #FFA700;
+
+  --color-muted-main: #3C5A96;
+  --color-muted-light: #2F4675;
+  --color-muted-dark: #213254;
+
+  --color-accent-main: #8800FF;
+  --color-accent-light: #9D2EFF;
+  --color-accent-dark: #7000D1;
+
+  --background-image-background-inverse: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(26, 11, 46, 0.6));
+  --background-image-background-dark: linear-gradient(135deg, #0b0c1b 0%, #0a2a2f 50%, #000000 100%);
+  --background-image-background-light: linear-gradient(to bottom, #f1bcffff, #fbecffff, #f1bcffff);
+
+  --animate-fly-1: fly-1 0.6s ease-in-out infinite alternate;
+
+  @keyframes fly-1 {
+    from {
+      transform: translateY(-0.1em);
+    }
+
+    to {
+      transform: translateY(0.1em);
+    }
+  }
+}
+
+@keyframes rotateGlow {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotateGlow {
+  animation: rotateGlow 8s linear infinite;
+}
+
+/* Add to your global CSS or tailwind via @layer utilities */
+@keyframes twinkle {
+
+  0%,
+  100% {
+    opacity: 0.8;
+    transform: translateY(0);
+  }
+
+  50% {
+    opacity: 0.3;
+    transform: translateY(-5px);
+  }
+}
+
+.galaxy-bg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, #000000 0%, #1a1a1a 100%);
+  overflow: hidden;
+  z-index: 0;
+}
+
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  box-shadow: 0 0 4px white;
+  animation: twinkle 2s infinite ease-in-out;
+}
+
+.orbit1 {
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid transparent;
+  background: linear-gradient(300deg, white, rgb(227, 227, 230), rgb(0, 0, 0)) border-box;
+  background-size: 200% 200%;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  animation: orbit-glow-right 4s linear infinite;
+}
+
+.orbit2 {
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid transparent;
+  background: linear-gradient(300deg, rgb(0, 0, 0), rgb(227, 227, 230), white) border-box;
+  background-size: 200% 200%;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  animation: orbit-glow-left 4s linear infinite;
+}
+
+/* Right direction */
+@keyframes orbit-glow-right {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+/* Left direction (opposite) */
+@keyframes orbit-glow-left {
+  0% {
+    background-position: 200% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+.animate-scroll-reverse {
+  animation: scroll-reverse 20s linear infinite;
+}
