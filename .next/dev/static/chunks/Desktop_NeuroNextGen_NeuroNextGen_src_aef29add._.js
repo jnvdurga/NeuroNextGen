@@ -15,12 +15,8 @@ __turbopack_context__.s([
     ()=>jobOpenings,
     "navItems",
     ()=>navItems,
-    "privacy",
-    ()=>privacy,
     "reasons",
     ()=>reasons,
-    "refund",
-    ()=>refund,
     "services",
     ()=>services,
     "steps",
@@ -33,10 +29,6 @@ __turbopack_context__.s([
     ()=>whyWorkWithUs
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$cg$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/cg/index.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/ci/index.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/fa/index.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$gr$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/gr/index.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$io$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/io/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/io5/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$lia$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/lia/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/md/index.mjs [app-client] (ecmascript)");
@@ -44,11 +36,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$N
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$ai$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/ai/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$ri$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/ri/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/fi/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/react-icons/fa/index.mjs [app-client] (ecmascript)");
 "use client";
-;
-;
-;
-;
 ;
 ;
 ;
@@ -381,158 +370,6 @@ const itServices = [
             "Custom CRM/ERP systems",
             "Workflow automation",
             "Cloud-ready business applications"
-        ]
-    }
-];
-const privacy = [
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MdOutlineRemoveRedEye"],
-        title: "Information We Collect",
-        content: [
-            {
-                subtitle: "Personal Data",
-                text: "Name, email, phone number, company details, and payment information when you sign up for services."
-            },
-            {
-                subtitle: "Technical Data",
-                text: "IP address, browser type, and website interaction details for analytical purposes."
-            }
-        ]
-    },
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaDatabase"],
-        title: "How We Use Your Information",
-        content: [
-            {
-                subtitle: "Service Provision",
-                text: "Provide, operate, and improve our services."
-            },
-            {
-                subtitle: "Payment Processing",
-                text: "Process payments and transactions securely."
-            },
-            {
-                subtitle: "Support",
-                text: "Respond to customer inquiries and support requests."
-            },
-            {
-                subtitle: "Communication",
-                text: "Send service-related communications and promotions."
-            }
-        ]
-    },
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CiLock"],
-        title: "Data Protection & Security",
-        content: [
-            {
-                subtitle: "Encryption and Access Controls",
-                text: "We implement security measures to protect your data from unauthorized access. Our website uses SSL encryption for secure data transmission."
-            },
-            {
-                subtitle: "Data Protection",
-                text: "We do not sell or rent your data to third parties."
-            }
-        ]
-    },
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$lia$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LiaCookieSolid"],
-        title: "Cookies and Tracking Technologies",
-        content: [
-            {
-                subtitle: "Cookies",
-                text: "We use cookies to enhance user experience and analyze website usage. Users can disable cookies through their browser settings."
-            }
-        ]
-    },
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaUsersCog"],
-        title: "Third-Party Links",
-        content: [
-            {
-                subtitle: "Disclaimer",
-                text: "Our website may contain third-party links. We are not responsible for their privacy practices."
-            }
-        ]
-    },
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaUserCheck"],
-        title: "Your Rights",
-        content: [
-            {
-                subtitle: "Access and Portability",
-                text: "You have the right to access your personal data and request a copy of your information in a portable format."
-            },
-            {
-                subtitle: "Correction and Deletion",
-                text: "You can update your personal information through your account settings or request deletion of your data by contacting us."
-            },
-            {
-                subtitle: "Data Processing Control",
-                text: "You can control how we process your data, including opting out of certain data uses and marketing communications."
-            }
-        ]
-    }
-];
-const refund = [
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$io$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["IoMdCheckmarkCircleOutline"],
-        title: "Refund Eligibility",
-        content: [
-            {
-                subtitle: "Timeframe",
-                text: "Refund requests must be made within 7 days of the purchase or project commencement."
-            },
-            {
-                subtitle: "Eligible Reasons",
-                text: "Refunds are only applicable if: The service was not delivered as per the agreed terms. A technical issue occurred that could not be resolved."
-            }
-        ]
-    },
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$md$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MdOutlineCancel"],
-        title: "Non-Refundable Services",
-        content: [
-            {
-                subtitle: "Custom Software Development",
-                text: "Custom software development services once the project has commenced."
-            },
-            {
-                subtitle: "Consultation Services",
-                text: "Consultation services already rendered."
-            },
-            {
-                subtitle: "Third-Party Software/Licenses",
-                text: "Third-party software/licenses purchased on your behalf."
-            }
-        ]
-    },
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$gr$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["GrCycle"],
-        title: "Refund Process",
-        content: [
-            {
-                subtitle: "Contact Us",
-                text: "Users must submit a refund request via email at care@chitcodes.com with relevant order details."
-            },
-            {
-                subtitle: "Assessment Period",
-                text: "Refund requests will be assessed within 15 working days of submission."
-            },
-            {
-                subtitle: "Refund Approval",
-                text: "Once approved, refunds will be processed within 15 working days through the original payment method."
-            }
-        ]
-    },
-    {
-        icon: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$ri$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RiRefund2Fill"],
-        title: "Chargebacks",
-        content: [
-            {
-                subtitle: "Communication",
-                text: "Chargebacks without prior communication will lead to account suspension and may be disputed legally."
-            }
         ]
     }
 ];
@@ -1576,12 +1413,12 @@ function FooterReveal() {
                 className: "absolute inset-0 -z-10 opacity-40",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$src$2f$component$2f$GalaxyBg$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                    lineNumber: 16,
+                    lineNumber: 15,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                lineNumber: 15,
+                lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1589,48 +1426,60 @@ function FooterReveal() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         ref: footerRef,
-                        className: "grid grid-cols-1 md:grid-cols-4 gap-10",
+                        className: "grid grid-cols-1 md:grid-cols-3 gap-14 md:gap-10",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "space-y-6",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-2xl font-bold text-white tracking-wide mb-6",
+                                        className: "text-xl font-bold text-white tracking-wide",
                                         children: [
-                                            "Intely",
+                                            "NeuroNextGen ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-white",
-                                                children: "Hood"
+                                                children: "Solutions"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                                lineNumber: 24,
-                                                columnNumber: 21
+                                                lineNumber: 27,
+                                                columnNumber: 28
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                        lineNumber: 23,
+                                        lineNumber: 26,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mb-6 text-gray-400 leading-relaxed",
+                                        className: "text-gray-400 leading-relaxed",
                                         children: "We create future-proof digital experiences by engineering smart, scalable software."
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 30,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex space-x-4 text-white text-xl",
                                         children: [
-                                            // {
-                                            //   icon: <FaWhatsapp />,
-                                            //   href: "https://api.whatsapp.com/send?phone=919406519122&text=Hello!%20I%27m%20interested%20in%20your%20services.",
-                                            // },
-                                            // { icon: <FaFacebook />, href: "https://www.facebook.com/PrakharArtServices/" },
+                                            {
+                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaWhatsapp"], {}, void 0, false, {
+                                                    fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
+                                                    lineNumber: 38,
+                                                    columnNumber: 25
+                                                }, this),
+                                                href: "https://api.whatsapp.com/send?phone=919406519122&text=Hello!%20I%27m%20interested%20in%20your%20services."
+                                            },
+                                            {
+                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaFacebook"], {}, void 0, false, {
+                                                    fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
+                                                    lineNumber: 41,
+                                                    columnNumber: 25
+                                                }, this),
+                                                href: "https://www.facebook.com/PrakharArtServices/"
+                                            },
                                             {
                                                 icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaInstagram"], {}, void 0, false, {
                                                     fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                                    lineNumber: 38,
+                                                    lineNumber: 42,
                                                     columnNumber: 25
                                                 }, this),
                                                 href: "https://www.instagram.com/intelyhood/"
@@ -1638,7 +1487,7 @@ function FooterReveal() {
                                             {
                                                 icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaLinkedin"], {}, void 0, false, {
                                                     fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                                    lineNumber: 39,
+                                                    lineNumber: 43,
                                                     columnNumber: 25
                                                 }, this),
                                                 href: "https://in.linkedin.com/company/intelyhoodtech"
@@ -1650,28 +1499,29 @@ function FooterReveal() {
                                                 children: item.icon
                                             }, i, false, {
                                                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                                lineNumber: 41,
+                                                lineNumber: 45,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                        lineNumber: 31,
+                                        lineNumber: 35,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                lineNumber: 22,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "space-y-4",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-white font-semibold mb-4 uppercase tracking-wider",
                                         children: "Quick Links"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 59,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1700,33 +1550,34 @@ function FooterReveal() {
                                                     children: link.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 71,
                                                     columnNumber: 19
                                                 }, this)
                                             }, i, false, {
                                                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                                lineNumber: 65,
+                                                lineNumber: 70,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 63,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                lineNumber: 54,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "space-y-4",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                         className: "text-white font-semibold mb-4 uppercase tracking-wider",
                                         children: "Address"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                        lineNumber: 121,
+                                        lineNumber: 84,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1738,40 +1589,40 @@ function FooterReveal() {
                                                 className: "mt-1 text-white text-xl"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                                lineNumber: 127,
+                                                lineNumber: 93,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: [
-                                                    "The View, 305, Yeshwant Niwas Rd,",
+                                                    "72, Yeshwant Niwas Rd,",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                                        lineNumber: 130,
+                                                        lineNumber: 96,
                                                         columnNumber: 17
                                                     }, this),
                                                     "Nehru Park 2, Lad Colony,",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                                        lineNumber: 132,
+                                                        lineNumber: 98,
                                                         columnNumber: 17
                                                     }, this),
                                                     "Indore, Madhya Pradesh 452003"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                                lineNumber: 128,
+                                                lineNumber: 94,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 88,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                lineNumber: 120,
+                                lineNumber: 83,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1781,40 +1632,41 @@ function FooterReveal() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400",
+                        className: "border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: [
-                                "© 2025 ",
+                                "© 2025",
+                                " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "font-semibold text-white",
-                                    children: "IntelyHood Technologies"
+                                    children: "NeuroNextGen Solutions"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                                    lineNumber: 142,
-                                    columnNumber: 20
+                                    lineNumber: 109,
+                                    columnNumber: 13
                                 }, this),
                                 ". All rights reserved."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                            lineNumber: 141,
+                            lineNumber: 107,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                        lineNumber: 140,
+                        lineNumber: 106,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-                lineNumber: 19,
+                lineNumber: 18,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/Footer.tsx",
-        lineNumber: 13,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }

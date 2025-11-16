@@ -1,7 +1,6 @@
 import Button from '@/templates/Button'
 import FormInput from '@/templates/FormInput'
 import FormTextArea from '@/templates/FormTextArea'
-import { CONTACT_FORM_SCRIPT_URL } from '@/utilities/config'
 import React, { useState } from 'react'
 import * as Yup from 'yup';
 import { useFormik } from 'formik';
@@ -10,8 +9,6 @@ const ContactForm: React.FC = () => {
     const [response, setResponse] = useState('');
     const [isSuccess, setIsSuccess] = useState<boolean | null>(null);
     const [visible, setVisible] = useState(false);
-
-    const scriptURL = CONTACT_FORM_SCRIPT_URL || '';
 
     const validationSchema = Yup.object().shape({
         name: Yup.string()
@@ -70,38 +67,30 @@ const ContactForm: React.FC = () => {
             setIsSuccess(null);
 
             try {
-                const formData = new FormData();
-                Object.entries(values).forEach(([key, value]) => {
-                    formData.append(key, value);
-                });
-
-                const res = await fetch(scriptURL, {
+                const res = await fetch("/api/send-email", {
                     method: 'POST',
-                    body: formData,
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(values),
                 });
 
-                if (res.ok) {
+                const data = await res.json();
+
+                if (data.success) {
                     resetForm();
                     setResponse('Your message has been sent!');
                     setIsSuccess(true);
-                    setVisible(true);
                 } else {
                     setResponse('Failed to send message.');
                     setIsSuccess(false);
-                    setVisible(true);
                 }
-            } catch (error) {
-                if (error instanceof Error) {
-                    console.error(`Submission Error:`, error.message);
-                    setResponse('Error: ' + error.message);
-                } else {
-                    console.error(`Unknown Submission Error`, error);
-                    setResponse('Something went wrong.');
-                }
+
+            } catch (error: any) {
+                console.error("Email Send Error:", error.message);
+                setResponse('Error: ' + error.message);
                 setIsSuccess(false);
-                setVisible(true);
             }
 
+            setVisible(true);
             setTimeout(() => setVisible(false), 5000);
         }
     });
@@ -110,10 +99,9 @@ const ContactForm: React.FC = () => {
         <div className="bg-background-main text-text-main p-4 sm:p-10 rounded-lg border border-primary-main/30">
             <div className='mb-5 text-center'>
                 <h4 className="text-2xl font-semibold">Send us a message</h4>
-                <p className="">
-                    Fill out the form below and we'll get back to you within 24 hours.
-                </p>
+                <p>Fill out the form below and we'll get back to you within 24 hours.</p>
             </div>
+
             <form onSubmit={formik.handleSubmit} className="space-y-5">
                 <FormInput
                     label='Full Name'
@@ -122,7 +110,8 @@ const ContactForm: React.FC = () => {
                     name='name'
                     formik={formik}
                     placeholder="Your Name"
-                    required />
+                    required
+                />
                 <FormInput
                     label='Email'
                     type='email'
@@ -130,7 +119,8 @@ const ContactForm: React.FC = () => {
                     name='email'
                     formik={formik}
                     placeholder="Your Email"
-                    required />
+                    required
+                />
                 <FormInput
                     label='Contact'
                     type='tel'
@@ -138,7 +128,8 @@ const ContactForm: React.FC = () => {
                     name="contact"
                     formik={formik}
                     placeholder="Your Contact No."
-                    required />
+                    required
+                />
                 <FormTextArea
                     id="message"
                     label='Message'
@@ -146,23 +137,25 @@ const ContactForm: React.FC = () => {
                     formik={formik}
                     rows={4}
                     placeholder="Tell us more about your inquiry..."
-                    required />
+                    required
+                />
 
                 <Button type="submit" className="w-full">
                     Send
                 </Button>
             </form>
+
             {visible && (
                 <div
-                    id="formMessage"
-                    className={`mt-4 px-4 py-2 rounded ${isSuccess ? 'bg-success-main' : 'bg-error-main'
-                        } text-text-dark`}
+                    className={`mt-4 px-4 py-2 rounded ${
+                        isSuccess ? 'bg-success-main' : 'bg-error-main'
+                    } text-text-dark`}
                 >
                     {response}
                 </div>
             )}
         </div>
-    )
-}
+    );
+};
 
-export default ContactForm
+export default ContactForm;
