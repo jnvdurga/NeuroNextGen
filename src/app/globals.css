@@ -13,7 +13,7 @@
   /* Brand colors (from your config) */
   --color-background-light: #303030;
   --color-background-main: #181818;
-  --color-background-dark: #000000;
+  --color-background-dark: black;
 
   --color-primary-main: #00E7FF;
   --color-primary-light: #8AF3FF;

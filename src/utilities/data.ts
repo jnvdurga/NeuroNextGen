@@ -1,3 +1,6 @@
+"use client";
+
+
 import { CgWebsite } from "react-icons/cg";
 import { CiLock } from "react-icons/ci";
 import { FaDatabase, FaUserCheck, FaUsersCog } from "react-icons/fa";
@@ -11,12 +14,12 @@ import { MdOutlinePrecisionManufacturing, MdOutlineWork, MdOutlineDataObject,MdO
 import { AiOutlineRobot } from "react-icons/ai";
 import { TbApi } from "react-icons/tb";
 import { RiGovernmentLine, RiRefund2Fill } from "react-icons/ri";
+import { FiCode, FiSmartphone, FiRefreshCw, FiSettings } from "react-icons/fi";
+import { MdDesignServices, MdBugReport ,MdBusiness, MdTimeline, MdStars, MdWork } from "react-icons/md";
 import {
   FiMessageSquare,
   FiGlobe,
-  FiCode,
   FiZap,
-  FiSettings,
   FiUsers,
   FiCpu,
   FiDatabase,
@@ -53,137 +56,95 @@ export interface NavItem {
 
 export const navItems: NavItem[] = [
   {
-    title: "Products",
+    title: "Solutions",
     path: "",
     submenu: [
       {
-        heading: "Build AI",
+        heading: "Artificial Intelligence",
         items: [
           {
             icon: FiCpu,
-            title: "For Generative AI",
-            desc: "Supervised fine-tuning and RLHF",
-            path: "/genai",
+            title: "AI Development",
+            desc: "Custom AI models, automation, and intelligent solutions",
+            path: "/ai-development",
           },
           {
             icon: AiOutlineRobot,
-            title: "For Physical AI",
-            desc: "Powering next-gen robotics",
-            path: "/physical_ai",
-          },
-          // {
-          //   icon: MdOutlineCarRepair,
-          //   title: "For Automotive",
-          //   desc: "Unlock L2 to L5 autonomy",
-          // },
-        ],
-      },
-      {
-        heading: "Train AI Models",
-        items: [
-          {
-            icon: FiBox,
-            title: "LLM Training Studio",
-            desc: "Train and fine-tune large language models at scale",
-            path:"/llm"
-          },
-          {
-            icon: MdOutlineDataObject,
-            title: "Data Annotation",
-            desc: "Annotated and labeled massive datasets for model training",
-            path:"/data-annotation"
-          },
-          {
-            icon: FiGitBranch,
-            title: "Distributed Training",
-            desc: "Accelerate training using multi-node GPU clusters",
-            path:"/distributed-training"
-          },
-          {
-            icon: FiActivity,
-            title: "Model Monitoring",
-            desc: "Track metrics, losses, and improvements in real time",
-            path:"/model-monitoring"
-          },
-        ],
-      },
-      {
-        heading: "Automation & Deployment",
-        items: [
-          {
-            icon: FiSettings,
-            title: "Workflow Automation",
-            desc: "Automate repetitive AI workflows and pipelines",
-            path: "/workflow-automation"
-          },
-          {
-            icon: TbApi,
-            title: "Model Inference API",
-            desc: "Deploy trained models instantly with scalable APIs",
-            path: "/model-inference-api"
+            title: "AI for Robotics",
+            desc: "AI solutions for automation and physical systems",
+            path: "/ai-robotics",
           },
           {
             icon: MdOutlineIntegrationInstructions,
-            title: "System Integrations",
-            desc: "Seamlessly connect with enterprise tools and data sources",
-            path: "/system-integrations"
+            title: "AI Integration",
+            desc: "Integrate AI into your existing business workflow",
+            path: "/ai-integration",
           },
         ],
       },
-    ],
-  },
 
-  // {
-  //   title: "Enterprise",
-  //   path: "/enterprise",
-  // },
-
-  {
-    title: "Services",
-    path: "",
-    submenu: [
       {
-        heading: "Our Core Services",
+        heading: "Software Development",
         items: [
-  {
-    icon: FiUsers,
-    title: "Staff Augmentation",
-    desc: "Hire top tech talent quickly — with less effort and at no cost",
-    path: "/staff-augmentation",
-  },
-  {
-    icon: FiCode,
-    title: "IT Development",
-    desc: "Custom software solutions for your business",
-    path: "/it-development",
-  },
-  {
-    icon: MdOutlineWork,
-    title: "Vetted Tech Talents",
-    desc: "Rigorously vetted tech talent seamlessly integrates into your workflow",
-    path: "/tech-talents",
-  },
-  // {
-  //   icon: MdOutlinePrecisionManufacturing,
-  //   title: "LLM Training",
-  //   desc: "Train large language models efficiently",
-  //   path: "/llm",
-  // },
-  // {
-  //   icon: FiDatabase,
-  //   title: "Data Annotation",
-  //   desc: "Annotated and labeled datasets for better AI model performance.",
-  //   path: "/data-annotation",
-  // },
-],
+          {
+            icon: FiCode,
+            title: "Web Development",
+            desc: "High-performance websites & web applications",
+            path: "/web-development",
+          },
+          {
+            icon: MdOutlineWork,
+            title: "Mobile App Development",
+            desc: "iOS & Android apps using React Native & Flutter",
+            path: "/mobile-development",
+          }
+        ],
+      }
 
-      },
+      
     ],
   },
 
+ {
+  title: "About Us",
+  path: "",
+  submenu: [
+    {
+      heading: "Company",
+      items: [
+        {
+          icon: MdBusiness,
+          title: "About Our Company",
+          desc: "Who we are and what drives us",
+          path: "/about",
+        },
+        {
+          icon: MdTimeline,
+          title: "Our Story",
+          desc: "The journey and milestones we achieved",
+          path: "/our-story",
+        },
+        {
+          icon: FiUsers,
+          title: "Our Team",
+          desc: "Meet the experts behind our success",
+          path: "/team",
+        },
+        {
+          icon: MdStars,
+          title: "Why Choose Us",
+          desc: "What makes our company stand out",
+          path: "/why-choose-us",
+        },
+        
+      ],
+    },
+  ],
+}
+,
   {
-    title: "Customers",
-    path: "/customers",
+    title: "Case Studies",
+    path: "/case-studies",
   },
 
   {
@@ -196,48 +157,30 @@ export const navItems: NavItem[] = [
           {
             icon: FiInfo,
             title: "About Us",
-            desc: "Learn more about our mission and team",
+            desc: "Who we are and how we work",
             path: "/about",
           },
           {
             icon: FiPhone,
             title: "Contact Us",
-            desc: "Get in touch with our support and sales team",
-            path: "/form",
+            desc: "Get support or launch your project with us",
+            path: "/contact",
           },
+          
           {
-            icon: FiBriefcase,
-            title: "Careers",
-            desc: "Join our fast-growing AI company",
-            path: "/careers",
+            icon: FiSearch,
+            title: "Research",
+            desc: "Our innovation, experiments & AI R&D",
+            path: "/research",
           },
-          {
-            icon: FiUsers,
-            title: "Vetted Hire Talent",
-            desc: "Build your dream team with our experts",
-            path: "/tech-talents",
-          },
-          // {
-          //   icon: FiBookOpen,
-          //   title: "Blog",
-          //   desc: "Insights and updates from our experts",
-          //   path: "/blog",
-          // },
-          // {
-          //   icon: FiSearch,
-          //   title: "Research",
-          //   desc: "Discover our latest research and innovations",
-          //   path: "/research",
-          // },
         ],
       },
     ],
   },
-    {
-    title: "Case-Studies",
-    path: "/case-studies",
-  },
+
+ 
 ];
+
 
 
 export const services = [
@@ -383,6 +326,69 @@ export const services = [
       "End-to-end recruitment support",
     ],
     image: "/assets/icons/ai-talent.gif",
+  },
+];
+
+export const itServices = [
+  {
+    icon: FiCode,
+    title: "Web Development",
+    subtitle: "Modern, scalable, and fast websites",
+    features: [
+      "Responsive website development",
+      "Full-stack MERN solutions",
+      "Business automation dashboards",
+    ],
+  },
+  {
+    icon: FiSmartphone,
+    title: "Mobile App Development",
+    subtitle: "Android & iOS apps that scale",
+    features: [
+      "React Native mobile apps",
+      "Cross-platform UI development",
+      "API integration & performance optimization",
+    ],
+  },
+  {
+    icon: MdBugReport,
+    title: "Bug Fixing & Debugging",
+    subtitle: "Resolve issues & improve performance",
+    features: [
+      "Fix crashes, UI errors, backend issues",
+      "Performance & stability improvement",
+      "Security checks & code cleanup",
+    ],
+  },
+  {
+    icon: FiRefreshCw,
+    title: "Upgrades & Modernization",
+    subtitle: "Upgrade outdated systems",
+    features: [
+      "UI redesign & theme updates",
+      "Codebase modernization",
+      "Tech migration & optimization",
+    ],
+  },
+  {
+    icon: MdDesignServices,
+    title: "UI/UX Designing",
+    subtitle: "Clean, modern & user-friendly designs",
+    features: [
+      "Figma wireframes & prototypes",
+      "Brand-oriented UI design",
+      "Component-based reusable UI systems",
+    ],
+  },
+  {
+    icon: FiSettings,
+    title: "Custom IT Solutions",
+    subtitle: "Tailored solutions for any business",
+    features: [
+      "Custom CRM/ERP systems",
+      "Workflow automation",
+      "Cloud-ready business applications",
+    ],
   },
 ];
 
