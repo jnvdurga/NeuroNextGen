@@ -10,9 +10,9 @@ import {
 } from "react-icons/md";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaMeta } from "react-icons/fa6";
-import GalaxyBackground from "@/components/GalaxyBg";
-import ContactForm from "@/components/ContactForm";
-import { Border } from "@/components/Broder";
+import GalaxyBackground from "@/component/GalaxyBg";
+import ContactForm from "@/component/ContactForm";
+// import { Border } from "@/components/Broder";
 
 const ContactUs = () => {
     const contactInfo = [
@@ -100,7 +100,7 @@ const ContactUs = () => {
                                     className="relative rounded-lg overflow-hidden group"
                                     style={{ animationDelay: `${600 + index * 100}ms` }}
                                 >
-                                    <Border>
+                                    {/* <Border> */}
                                     <div className="relative inset-[1px] rounded-2xl bg-background-main backdrop-blur p-6 transform hover:scale-[1.02] transition-transform duration-300 text-text-main flex flex-col items-center gap-3">
                                         <div
                                             className={`rounded-lg flex items-center justify-center`}
@@ -113,7 +113,7 @@ const ContactUs = () => {
                                         <p className="font-medium">{item.info}</p>
                                         <p className="text-sm">{item.subInfo}</p>
                                     </div>
-                                    </Border>
+                                    {/* </Border> */}
                                 </div>
                             ))}
 

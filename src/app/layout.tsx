@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer"; // Directly use Footer here
+import Header from "@/component/Header";
+import Footer from "@/component/Footer"; // Directly use Footer here
 import { Suspense } from "react";
-import Loader from "@/components/Loader";
+import Loader from "@/component/Loader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IntelyHood - Empowering Businesses with AI-Driven Solutions",
-  description: "Empowering Ideas with AI-Driven Solutions",
+  title: "NeuroNext Gen Solutions",
+  description: "Empowering Ideas with IT-Driven Solutions",
 };
 
 export default function RootLayout({

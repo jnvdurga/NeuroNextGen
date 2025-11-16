@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import GalaxyBackground from "@/components/GalaxyBg"; // aapka galaxy bg component
+import GalaxyBackground from "@/component/GalaxyBg"; // aapka galaxy bg component
 
 import { services } from "@/utilities/data";
 import { FlipCard } from "@/components/FlipCard";

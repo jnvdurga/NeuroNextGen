@@ -1,4 +1,4 @@
-import GalaxyBackground from "@/components/GalaxyBg";
+import GalaxyBackground from "@/component/GalaxyBg";
 import Button from "@/templates/Button";
 import Link from "next/link";
 

@@ -1,49 +1,61 @@
-import CaseStudyCard from "@/components/PageComponents/CaseStudycards";
+import CaseStudyCard from "@/component/CaseStudy";
 
 const caseStudiesData = [
   {
-    title: "AI-Driven Computer Vision Transforms Echocardiogram Analysis for Biotech",
-    category: "Computer Vision, AI in Healthcare, Medical Imaging",
-    services: "AI Model Development, Medical Image Processing, Workflow Automation, Machine Learning Integration",
-    image: "/case03.png",
-    description: "Our AI-driven computer vision models analyze echocardiograms with unprecedented accuracy and speed. By integrating machine learning into medical imaging workflows, we help biotech companies enhance diagnostic precision and accelerate research. Automated processes reduce human error while enabling scalable, efficient operations in healthcare environments."
+    title: "Next-Gen E-Commerce Platform for Global Retailer",
+    category: "Web Development, AI, Full-Stack Innovation",
+    services: "AI-Powered Product Recommendations, Scalable React Frontend, Node.js Backend, Cloud Hosting",
+    image: "https://res.cloudinary.com/dohksngyi/image/upload/v1763262392/ecomaerce_tovpnz.webp",
+    description: "We engineered a futuristic e-commerce platform combining AI-driven product recommendations with real-time analytics. The system leverages React and Node.js for high-performance, cloud-deployed infrastructure, enabling seamless global transactions and predictive customer engagement."
   },
   {
-    title: "Robotic Process Automation Optimizes Supply Chain Management for Manufacturing",
-    category: "Robotics, Automation, Supply Chain",
-    services: "RPA Workflow Design, ERP Integration, Process Optimization, Analytics Dashboard",
-    image: "/case02.png",
-    description: "We implemented robotic process automation to streamline complex supply chain operations for a leading manufacturer. Our solutions automate repetitive tasks, improve inventory tracking, and integrate seamlessly with existing ERP systems. The result is faster order fulfillment, reduced operational costs, and enhanced visibility across the supply chain."
+    title: "Cross-Platform Logistics App with Predictive Tracking",
+    category: "Mobile App Development, AI, IoT",
+    services: "Real-Time GPS Tracking, Predictive Delivery Analytics, Push Notifications, API Automation",
+    image: "https://res.cloudinary.com/dohksngyi/image/upload/v1763262597/tracking-vs-monitoring_fmehah.png",
+    description: "Our team developed a cutting-edge logistics app integrating AI predictive analytics with real-time GPS tracking. The platform anticipates delivery delays, optimizes routing, and automates notifications, transforming operational efficiency for the enterprise while providing a futuristic user experience."
   },
   {
-    title: "Predictive Analytics Enhances Customer Retention for E-commerce Platforms",
-    category: "Data Science, Predictive Analytics, Customer Experience",
-    services: "Data Modeling, Customer Segmentation, Personalized Recommendations, KPI Tracking",
-    image: "/case01.png",
-    description: "Leveraging predictive analytics, we help e-commerce platforms understand customer behavior and increase retention. Our models segment users, predict churn, and deliver personalized recommendations. Businesses can make data-driven decisions, optimize marketing campaigns, and boost customer satisfaction while driving revenue growth."
+    title: "Cloud-Native Transformation for Enterprise IT",
+    category: "Cloud Solutions, DevOps, AI-Ready Architecture",
+    services: "Cloud Migration, Microservices, CI/CD Pipelines, Security & Performance Optimization",
+    image: "https://res.cloudinary.com/dohksngyi/image/upload/v1763263401/cloudimage_sylpwx.avif",
+    description: "We spearheaded the migration of legacy enterprise systems to a cloud-native architecture, incorporating AI-ready pipelines, microservices, and real-time monitoring. This next-gen infrastructure ensures resilience, scalability, and rapid deployment for mission-critical operations."
+  },
+  {
+    title: "AI-Enhanced CRM System for FinTech Innovation",
+    category: "Web App Development, AI, SaaS",
+    services: "CRM Automation, Predictive Customer Insights, Backend APIs, Advanced Analytics Dashboard",
+    image: "https://res.cloudinary.com/dohksngyi/image/upload/v1763262853/crm_usffxd.png",
+    description: "We designed an AI-augmented CRM platform that predicts client behavior, automates workflows, and integrates advanced analytics dashboards. The system empowers fintech teams with actionable insights, real-time decision support, and seamless SaaS integration."
+  },
+  {
+    title: "Intelligent Automation & Enterprise Workflow Optimization",
+    category: "RPA, AI, IT Consulting",
+    services: "Robotic Process Automation, Predictive Task Scheduling, ERP Integration, Data-Driven Dashboards",
+    image: "https://res.cloudinary.com/dohksngyi/image/upload/v1763263071/AI-Automation-1_q5m4om.webp",
+    description: "Leveraging RPA and AI, we reimagined enterprise workflows to achieve intelligent task automation. Predictive scheduling, real-time analytics, and ERP integration enable organizations to accelerate operations, reduce errors, and embrace a futuristic, data-driven IT environment."
   }
 ];
-
-
 
 export default function CaseStudies() {
   return (
     <main className="bg-black min-h-screen pt-30 px-2">
       {/* Heading Section */}
       <div className="bg-black shadow-sm text-center py-6 rounded-3xl max-w-[90%] mx-auto md:max-w-none md:mx-0 md:rounded-none">
-        <p className="text-blue-300 text-3xl font-bold uppercase tracking-widest mb-3">
+        <p className="text-blue-400 text-3xl font-bold uppercase tracking-widest mb-3">
           Case Studies
         </p>
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-          We Love What We Do
+          Empowering Businesses with Futuristic IT Solutions
         </h2>
         <p className="text-white text-base md:text-lg max-w-2xl mx-auto">
-          See how our tailored solutions drive real results, empowering businesses to excel and innovate.
+          At NeuroNextGen Solutions, we don’t just deliver IT services — we innovate at the cutting edge. From AI-driven web apps to cloud-native architectures, predictive systems, and intelligent automation, explore how our research-led projects redefine business potential and digital transformation.
         </p>
       </div>
 
       {/* Cards Section */}
-      <section className="container mx-auto">
+      <section className="container mx-auto mt-10 space-y-10">
         {caseStudiesData.map((caseStudy, index) => (
           <CaseStudyCard
             key={index}
