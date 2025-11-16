@@ -3995,13 +3995,31 @@ const configEnv = ("TURBOPACK compile-time value", {
     "loader": ("TURBOPACK compile-time value", "default"),
     "dangerouslyAllowSVG": ("TURBOPACK compile-time value", false),
     "unoptimized": ("TURBOPACK compile-time value", false),
-    "domains": ("TURBOPACK compile-time value", [
-        ("TURBOPACK compile-time value", "res.cloudinary.com")
-    ]),
+    "domains": ("TURBOPACK compile-time value", []),
     "remotePatterns": ("TURBOPACK compile-time value", [
         ("TURBOPACK compile-time value", {
             "protocol": ("TURBOPACK compile-time value", "https"),
             "hostname": ("TURBOPACK compile-time value", "res.cloudinary.com")
+        }),
+        ("TURBOPACK compile-time value", {
+            "protocol": ("TURBOPACK compile-time value", "https"),
+            "hostname": ("TURBOPACK compile-time value", "encrypted-tbn0.gstatic.com")
+        }),
+        ("TURBOPACK compile-time value", {
+            "protocol": ("TURBOPACK compile-time value", "https"),
+            "hostname": ("TURBOPACK compile-time value", "incubator.ucf.edu")
+        }),
+        ("TURBOPACK compile-time value", {
+            "protocol": ("TURBOPACK compile-time value", "https"),
+            "hostname": ("TURBOPACK compile-time value", "www.polytechnique-insights.com")
+        }),
+        ("TURBOPACK compile-time value", {
+            "protocol": ("TURBOPACK compile-time value", "https"),
+            "hostname": ("TURBOPACK compile-time value", "www.pcworld.com")
+        }),
+        ("TURBOPACK compile-time value", {
+            "protocol": ("TURBOPACK compile-time value", "https"),
+            "hostname": ("TURBOPACK compile-time value", "cdn-icons-png.flaticon.com")
         })
     ]),
     "localPatterns": ("TURBOPACK compile-time value", [
@@ -4357,13 +4375,31 @@ function getImageProps(imgProps) {
             "loader": ("TURBOPACK compile-time value", "default"),
             "dangerouslyAllowSVG": ("TURBOPACK compile-time value", false),
             "unoptimized": ("TURBOPACK compile-time value", false),
-            "domains": ("TURBOPACK compile-time value", [
-                ("TURBOPACK compile-time value", "res.cloudinary.com")
-            ]),
+            "domains": ("TURBOPACK compile-time value", []),
             "remotePatterns": ("TURBOPACK compile-time value", [
                 ("TURBOPACK compile-time value", {
                     "protocol": ("TURBOPACK compile-time value", "https"),
                     "hostname": ("TURBOPACK compile-time value", "res.cloudinary.com")
+                }),
+                ("TURBOPACK compile-time value", {
+                    "protocol": ("TURBOPACK compile-time value", "https"),
+                    "hostname": ("TURBOPACK compile-time value", "encrypted-tbn0.gstatic.com")
+                }),
+                ("TURBOPACK compile-time value", {
+                    "protocol": ("TURBOPACK compile-time value", "https"),
+                    "hostname": ("TURBOPACK compile-time value", "incubator.ucf.edu")
+                }),
+                ("TURBOPACK compile-time value", {
+                    "protocol": ("TURBOPACK compile-time value", "https"),
+                    "hostname": ("TURBOPACK compile-time value", "www.polytechnique-insights.com")
+                }),
+                ("TURBOPACK compile-time value", {
+                    "protocol": ("TURBOPACK compile-time value", "https"),
+                    "hostname": ("TURBOPACK compile-time value", "www.pcworld.com")
+                }),
+                ("TURBOPACK compile-time value", {
+                    "protocol": ("TURBOPACK compile-time value", "https"),
+                    "hostname": ("TURBOPACK compile-time value", "cdn-icons-png.flaticon.com")
                 })
             ]),
             "localPatterns": ("TURBOPACK compile-time value", [
