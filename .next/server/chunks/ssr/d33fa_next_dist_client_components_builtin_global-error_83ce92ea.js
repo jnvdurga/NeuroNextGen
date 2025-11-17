@@ -1,0 +1,3 @@
+module.exports=[99762,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(64778);a.n(d("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},36732,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(64778);a.n(d("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/next/dist/client/components/builtin/global-error.js"))},82921,a=>{"use strict";a.i(99762);var b=a.i(36732);a.n(b)}];
+
+//# sourceMappingURL=d33fa_next_dist_client_components_builtin_global-error_83ce92ea.js.map

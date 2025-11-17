@@ -1,0 +1,20 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/ai-development/page": "/ai-development",
+  "/ai-integration/page": "/ai-integration",
+  "/ai-robotics/page": "/ai-robotics",
+  "/api/send-email/route": "/api/send-email",
+  "/case-studies/page": "/case-studies",
+  "/contact/page": "/contact",
+  "/favicon.ico/route": "/favicon.ico",
+  "/form/page": "/form",
+  "/mobile-development/page": "/mobile-development",
+  "/our-story/page": "/our-story",
+  "/page": "/",
+  "/research/page": "/research",
+  "/team/page": "/team",
+  "/web-development/page": "/web-development",
+  "/why-choose-us/page": "/why-choose-us"
+}

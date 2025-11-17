@@ -600,10 +600,6 @@
     margin-bottom: calc(var(--spacing) * 8);
   }
 
-  .mb-10 {
-    margin-bottom: calc(var(--spacing) * 10);
-  }
-
   .mb-12 {
     margin-bottom: calc(var(--spacing) * 12);
   }
@@ -2218,6 +2214,12 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:h-96 {
+      height: calc(var(--spacing) * 96);
+    }
+  }
+
+  @media (min-width: 40rem) {
     .sm\:w-5\/6 {
       width: 83.3333%;
     }
@@ -2317,13 +2319,6 @@
   }
 
   @media (min-width: 40rem) {
-    .sm\:text-6xl {
-      font-size: var(--text-6xl);
-      line-height: var(--tw-leading, var(--text-6xl--line-height));
-    }
-  }
-
-  @media (min-width: 40rem) {
     .sm\:text-base {
       font-size: var(--text-base);
       line-height: var(--tw-leading, var(--text-base--line-height));
@@ -2359,6 +2354,12 @@
   @media (min-width: 48rem) {
     .md\:mt-0 {
       margin-top: calc(var(--spacing) * 0);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:mr-8 {
+      margin-right: calc(var(--spacing) * 8);
     }
   }
 
@@ -2425,6 +2426,12 @@
   @media (min-width: 48rem) {
     .md\:grid-cols-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:flex-col {
+      flex-direction: column;
     }
   }
 

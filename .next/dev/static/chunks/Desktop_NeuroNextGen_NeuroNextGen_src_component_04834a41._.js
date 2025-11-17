@@ -9,22 +9,24 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/next/navigation.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/NeuroNextGen/NeuroNextGen/node_modules/next/image.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
-function HeroSection({ title, highlight1, highlight2, subtitle, buttonText, buttonLink }) {
+;
+function HeroSection({ title, highlight1, highlight2, subtitle, buttonText, buttonLink, imageUrl }) {
     _s();
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative flex flex-col items-center justify-center text-center px-8 py-24 sm:py-40 bg-black text-white overflow-hidden min-h-screen",
+        className: "relative flex flex-col md:flex-row items-center justify-between px-8 py-24 sm:py-40 bg-black text-white min-h-screen overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative z-10 flex flex-col items-center justify-center max-w-4xl",
+                className: "relative z-10 flex flex-col items-start max-w-2xl md:mr-8",
                 children: [
                     title && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
-                        className: "text-4xl sm:text-5xl md:text-6xl font-light leading-tight tracking-tight mb-10",
+                        className: "text-4xl sm:text-5xl md:text-6xl font-light leading-tight tracking-tight mb-6",
                         initial: {
                             opacity: 0,
                             y: 30
@@ -36,55 +38,24 @@ function HeroSection({ title, highlight1, highlight2, subtitle, buttonText, butt
                         transition: {
                             duration: 1
                         },
-                        children: [
-                            title.split(" ").map((word, idx)=>{
-                                const isHighlight = word === highlight1 || word === highlight2;
-                                return isHighlight ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-blue-300 font-medium",
-                                    children: word + " "
-                                }, idx, false, {
-                                    fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
-                                    lineNumber: 44,
-                                    columnNumber: 17
-                                }, this) : word + " ";
-                            }),
-                            (highlight1 || highlight2) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mt-6 text-lg sm:text-xl font-normal text-gray-300 leading-relaxed tracking-wide",
-                                children: [
-                                    "Build",
-                                    " ",
-                                    highlight1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-blue-300 font-semibold",
-                                        children: highlight1
-                                    }, void 0, false, {
-                                        fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
-                                        lineNumber: 56,
-                                        columnNumber: 19
-                                    }, this),
-                                    highlight1 && highlight2 && " and ",
-                                    highlight2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-blue-300 font-semibold",
-                                        children: highlight2
-                                    }, void 0, false, {
-                                        fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
-                                        lineNumber: 62,
-                                        columnNumber: 19
-                                    }, this),
-                                    "that power your next big leap."
-                                ]
-                            }, void 0, true, {
+                        children: title.split(" ").map((word, idx)=>{
+                            const isHighlight = word === highlight1 || word === highlight2;
+                            return isHighlight ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-blue-300 font-medium",
+                                children: word + " "
+                            }, idx, false, {
                                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
-                                lineNumber: 53,
-                                columnNumber: 15
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                lineNumber: 43,
+                                columnNumber: 17
+                            }, this) : word + " ";
+                        })
+                    }, void 0, false, {
                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
-                        lineNumber: 32,
+                        lineNumber: 34,
                         columnNumber: 11
                     }, this),
                     subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
-                        className: " text-lg sm:text-xl text-gray-400 max-w-2xl leading-relaxed",
+                        className: "text-lg sm:text-xl text-gray-400 mb-6",
                         initial: {
                             opacity: 0
                         },
@@ -98,11 +69,11 @@ function HeroSection({ title, highlight1, highlight2, subtitle, buttonText, butt
                         children: subtitle
                     }, void 0, false, {
                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
-                        lineNumber: 74,
+                        lineNumber: 54,
                         columnNumber: 11
                     }, this),
                     buttonText && buttonLink && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
-                        className: "mt-6 px-10 py-4 bg-white text-black font-semibold rounded-lg shadow-lg hover:bg-gray-200 hover:shadow-xl transition-all duration-300 text-lg sm:text-xl",
+                        className: "px-10 py-4 bg-white text-black font-semibold rounded-lg shadow-lg hover:bg-gray-200 hover:shadow-xl transition-all duration-300 text-lg sm:text-xl",
                         whileHover: {
                             scale: 1.08
                         },
@@ -125,26 +96,44 @@ function HeroSection({ title, highlight1, highlight2, subtitle, buttonText, butt
                         children: buttonText
                     }, void 0, false, {
                         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
-                        lineNumber: 86,
+                        lineNumber: 65,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
-                lineNumber: 28,
+                lineNumber: 32,
                 columnNumber: 7
+            }, this),
+            imageUrl && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative w-full md:w-1/2 h-64 sm:h-96 md:h-auto mt-10 md:mt-0",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    src: imageUrl,
+                    alt: "Hero Image",
+                    fill: true,
+                    className: "object-contain",
+                    priority: true
+                }, void 0, false, {
+                    fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
+                    lineNumber: 82,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
+                lineNumber: 81,
+                columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$NeuroNextGen$2f$NeuroNextGen$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent pointer-events-none"
             }, void 0, false, {
                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
-                lineNumber: 101,
+                lineNumber: 93,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx",
-        lineNumber: 26,
+        lineNumber: 29,
         columnNumber: 5
     }, this);
 }
