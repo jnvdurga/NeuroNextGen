@@ -3,7 +3,7 @@ import HeroSection from "@/component/HeroSection";
 import { InfoGrid } from "@/component/InfoGrid";
 import {itServices } from "@/utilities/data";
 import HeroSideBySide from "@/component/HeroSideBySide";
-
+import HeadingSubTitel from "@/component/HeadingSubTitel";
 export default function Home() {
   return (
     <>
@@ -15,14 +15,14 @@ buttonText="Contact Us"
 />
 
 
-   <HeroSection
-  title="Empower Your Business with Cutting-Edge Digital Solutions"
-  highlight1="Modern Web Experiences"
-  highlight2="Scalable Mobile Apps"
-  subtitle="At NeuroNext Gen Solutions, we build, upgrade, and maintain powerful digital products — from responsive websites to high-performance mobile applications and complete IT systems."
-  buttonText="Start Your Project →"
-  buttonLink="/form"
-  imageUrl="https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp"
+   <HeadingSubTitel
+  heading="Empower Your Business with Cutting-Edge Digital Solutions"
+  tagText="Modern Web Experiences"
+  // highlight2="Scalable Mobile Apps"
+  description="At NeuroNext Gen Solutions, we build, upgrade, and maintain powerful digital products — from responsive websites to high-performance mobile applications and complete IT systems."
+  // buttonText="Start Your Project →"
+  // buttonLink="/form"
+  // imageUrl="https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp"
 />
 
 
