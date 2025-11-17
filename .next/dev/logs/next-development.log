@@ -1,60 +1,207 @@
-[00:00:04.079] Server  LOG      ✓ Ready in 2.7s
-[00:00:49.506] Server  LOG      ○ Compiling / ...
-[00:01:14.831] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:14.831] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:01:30.025] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763225577/Aiface_rvuhk5.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:30.025] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222797/aigen_akg6bo.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:09:58.435] Server  LOG      ✓ Compiled in 575ms
-[00:10:09.275] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:10:09.275] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:10:21.890] Server  LOG      ✓ Compiled in 118ms
-[00:10:33.994] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:10:33.994] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:12:29.693] Server  LOG      ✓ Compiled in 970ms
-[00:12:31.889] Server  ERROR    ⨯ ReferenceError: im is not defined
-[00:12:32.843] Server  ERROR    ⨯ ReferenceError: im is not defined
-[00:12:36.175] Server  LOG      ○ Compiling /_error ...
-[00:12:37.375] Browser ERROR   ./Desktop/NeuroNextGen/NeuroNextGen/src/app/page.tsx:7:1
+[00:00:05.965] Server  LOG      ✓ Ready in 4.5s
+[00:00:15.166] Server  LOG      ○ Compiling /web-development ...
+[00:00:57.646] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763230993/webdevelop_iodo8r.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:57.646] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763232578/webphoto_jslxgy.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:08.723] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256859/android_aryr72.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:28.697] Server  LOG      ✓ Compiled in 248ms
+[00:01:31.070] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256466/mobile_tcm5dj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:31.070] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256466/mobile_tcm5dj.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:01:39.105] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763050438/neuro1_ecdiy9.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:01:39.105] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256466/mobile_tcm5dj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:39.105] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256466/mobile_tcm5dj.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:01:39.105] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256859/android_aryr72.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:10.993] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763050438/neuro1_ecdiy9.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:10.993] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256466/mobile_tcm5dj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:10.993] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256466/mobile_tcm5dj.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:02:10.993] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256859/android_aryr72.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:36.373] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763050438/neuro1_ecdiy9.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:36.573] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256466/mobile_tcm5dj.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:36.573] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256466/mobile_tcm5dj.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:03:29.132] Server  LOG      ✓ Compiled in 522ms
+[00:03:32.213] Browser ERROR   ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx:100:68
 Parsing ecmascript source code failed
-   5 | import HeroSideBySide from "@/component/HeroSideBySide";
-   6 | import HeadingSubTitel from 
->  7 | export default function Home() {
-     | ^^^^^^
-   8 |   return (
-   9 |     <>
-  10 |    <HeroSideBySide
+   98 |
+   99 |       {/* Gradient Overlay */}
+> 100 |       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent pointer-events-none" />
+      |                                                                    ^^
+  101 |     </section>
+  102 |   );
+  103 | }
 
-Unexpected token `export`. Expected a string literal
-[00:12:38.600] Server  LOG      ✓ Compiled in 1335ms
-[00:12:40.629] Server  ERROR   Node.js fs rename failed after 101 retries with error Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\middleware-build-manifest.js.tmp.e2frma0b57s' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\middleware-build-manifest.js'
-[00:12:40.662] Server  ERROR    ⨯ Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\middleware-build-manifest.js.tmp.e2frma0b57s' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\middleware-build-manifest.js'
-[00:12:40.925] Server  ERROR   Node.js fs rename failed after 101 retries with error Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\static\development\_buildManifest.js.tmp.0x30hfl9vgyq' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\static\development\_buildManifest.js'
-[00:12:42.422] Server  ERROR   ReferenceError: im is not defined
-[00:12:42.748] Server  ERROR   Node.js fs rename failed after 101 retries with error Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js.tmp.0uoc06kcee6' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js'
-[00:12:43.211] Server  ERROR   Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js.tmp.0uoc06kcee6' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js'
-[00:12:43.235] Server  ERROR    ⨯ "unhandledRejection:" Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js.tmp.0uoc06kcee6' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js'
-[00:12:43.259] Server  ERROR    ⨯ "unhandledRejection: " Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js.tmp.0uoc06kcee6' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js'
-[00:12:55.470] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:12:55.470] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:13:11.019] Server  ERROR    ⨯ ReferenceError: Hea is not defined
-[00:13:11.070] Server  LOG      ✓ Compiled in 717ms
-[00:13:11.318] Browser ERROR   uncaughtError: ReferenceError: Hea is not defined
-[00:13:13.685] Server  ERROR    ⨯ ReferenceError: Heading is not defined
-[00:13:17.735] Browser ERROR   uncaughtError: ReferenceError: Heading is not defined
-[00:13:18.715] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:13:40.809] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222797/aigen_akg6bo.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:13:40.809] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763225577/Aiface_rvuhk5.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:14.134] Server  LOG      ✓ Compiled in 960ms
-[00:14:21.780] Server  LOG      ✓ Compiled in 1873ms
-[00:14:25.105] Server  LOG      ✓ Compiled in 134ms
-[00:15:43.505] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763219861/AiforHome_cv0h9s.avif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:15:43.505] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763219861/AiforHome_cv0h9s.avif" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:15:53.014] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763219861/AiforHome_cv0h9s.avif" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:15:53.014] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763219861/AiforHome_cv0h9s.avif" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:16:05.582] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:16:05.582] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:17:43.536] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222797/aigen_akg6bo.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:43.536] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763225577/Aiface_rvuhk5.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:18:00.130] Server  LOG      ○ Compiling /web-development ...
-[00:18:04.611] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763230993/webdevelop_iodo8r.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:18:05.822] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763232578/webphoto_jslxgy.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+Expected '</', got 'numeric literal (70, 70)'
+
+Import trace:
+  Server Component:
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/app/mobile-development/page.tsx
+[00:03:32.213] Browser ERROR   ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx:100:68
+Parsing ecmascript source code failed
+   98 |
+   99 |       {/* Gradient Overlay */}
+> 100 |       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent pointer-events-none" />
+      |                                                                    ^^
+  101 |     </section>
+  102 |   );
+  103 | }
+
+Expected '</', got 'numeric literal (70, 70)'
+
+Import trace:
+  Server Component:
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/app/mobile-development/page.tsx
+[00:03:35.984] Server  ERROR    ⨯ ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx:100:68
+Parsing ecmascript source code failed
+   98 |
+   99 |       {/* Gradient Overlay */}
+> 100 |       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent pointer-events-none" />
+      |                                                                    ^^
+  101 |     </section>
+  102 |   );
+  103 | }
+
+Expected '</', got 'numeric literal (70, 70)'
+
+Import trace:
+  Server Component:
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/app/mobile-development/page.tsx
+
+
+[00:03:36.110] Browser ERROR   ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx:100:68
+Parsing ecmascript source code failed
+   98 |
+   99 |       {/* Gradient Overlay */}
+> 100 |       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent pointer-events-none" />
+      |                                                                    ^^
+  101 |     </section>
+  102 |   );
+  103 | }
+
+Expected '</', got 'numeric literal (70, 70)'
+
+Import trace:
+  Server Component:
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/app/mobile-development/page.tsx
+[00:03:37.906] Browser ERROR   ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx:100:68
+Parsing ecmascript source code failed
+   98 |
+   99 |       {/* Gradient Overlay */}
+> 100 |       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent pointer-events-none" />
+      |                                                                    ^^
+  101 |     </section>
+  102 |   );
+  103 | }
+
+Expected '</', got 'numeric literal (70, 70)'
+
+Import trace:
+  Server Component:
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/app/mobile-development/page.tsx
+[00:03:38.583] Browser ERROR   ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx:100:68
+Parsing ecmascript source code failed
+   98 |
+   99 |       {/* Gradient Overlay */}
+> 100 |       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent pointer-events-none" />
+      |                                                                    ^^
+  101 |     </section>
+  102 |   );
+  103 | }
+
+Expected '</', got 'numeric literal (70, 70)'
+
+Import trace:
+  Server Component:
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/app/mobile-development/page.tsx
+[00:03:39.009] Server  LOG      ○ Compiling /_error ...
+[00:03:42.414] Browser ERROR   uncaughtError: Error: ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx:100:68
+Parsing ecmascript source code failed
+   98 |
+   99 |       {/* Gradient Overlay */}
+> 100 |       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent pointer-events-none" />
+      |                                                                    ^^
+  101 |     </section>
+  102 |   );
+  103 | }
+
+Expected '</', got 'numeric literal (70, 70)'
+
+Import trace:
+  Server Component:
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/app/mobile-development/page.tsx
+
+
+[00:03:42.576] Browser ERROR   ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx:100:68
+Parsing ecmascript source code failed
+   98 |
+   99 |       {/* Gradient Overlay */}
+> 100 |       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent pointer-events-none" />
+      |                                                                    ^^
+  101 |     </section>
+  102 |   );
+  103 | }
+
+Expected '</', got 'numeric literal (70, 70)'
+
+Import trace:
+  Server Component:
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/app/mobile-development/page.tsx
+[00:03:43.064] Browser ERROR   ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx:100:68
+Parsing ecmascript source code failed
+   98 |
+   99 |       {/* Gradient Overlay */}
+> 100 |       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent pointer-events-none" />
+      |                                                                    ^^
+  101 |     </section>
+  102 |   );
+  103 | }
+
+Expected '</', got 'numeric literal (70, 70)'
+
+Import trace:
+  Server Component:
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/component/HeroSection.tsx
+    ./Desktop/NeuroNextGen/NeuroNextGen/src/app/mobile-development/page.tsx
+[00:03:54.545] Server  LOG      ✓ Compiled in 151ms
+[00:04:03.690] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763050438/neuro1_ecdiy9.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:04:05.364] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256466/mobile_tcm5dj.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:04:05.745] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256859/android_aryr72.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:11.509] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763050438/neuro1_ecdiy9.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:04:11.653] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256466/mobile_tcm5dj.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:04:11.653] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256859/android_aryr72.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:17.609] Server  LOG      ✓ Compiled in 84ms
+[00:05:07.572] Server  LOG      ✓ Compiled in 611ms
+[00:05:30.115] Server  LOG      ✓ Compiled in 81ms
+[00:05:40.923] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763050438/neuro1_ecdiy9.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:41.351] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256859/android_aryr72.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:58.574] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763222797/aigen_akg6bo.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:58.574] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763225577/Aiface_rvuhk5.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:10.544] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763230993/webdevelop_iodo8r.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:06.640] Server  LOG      ✓ Compiled in 115ms
+[00:07:14.287] Server  LOG      ○ Compiling /team ...
+[00:07:22.194] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763264079/team_fjdqlk.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:30.400] Server  ERROR   Node.js fs rename failed after 101 retries with error Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\server-reference-manifest.js.tmp.c549pvkg4cl' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\server-reference-manifest.js'
+[00:07:30.587] Server  ERROR    ⨯ Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\server-reference-manifest.js.tmp.c549pvkg4cl' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\server-reference-manifest.js'
+[00:07:31.314] Server  ERROR   Node.js fs rename failed after 101 retries with error Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\middleware-build-manifest.js.tmp.dwflkcrn46l' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\middleware-build-manifest.js'
+[00:07:31.353] Server  ERROR    ⨯ Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\middleware-build-manifest.js.tmp.dwflkcrn46l' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\middleware-build-manifest.js'
+[00:07:32.143] Server  ERROR   Node.js fs rename failed after 101 retries with error Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js.tmp.nm513s9ycz' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js'
+[00:07:32.459] Server  ERROR   Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js.tmp.nm513s9ycz' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js'
+[00:07:32.484] Server  ERROR    ⨯ "unhandledRejection:" Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js.tmp.nm513s9ycz' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js'
+[00:07:32.528] Server  ERROR    ⨯ "unhandledRejection: " Error: EPERM: operation not permitted, rename 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js.tmp.nm513s9ycz' -> 'C:\Users\HP\Desktop\NeuroNextGen\NeuroNextGen\.next\dev\server\next-font-manifest.js'
+[00:07:48.011] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763225577/Aiface_rvuhk5.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:48.011] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763228881/aibrain_qxqwf4.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:10.369] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763230472/aiintgration_hxtaau.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:10.850] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763229662/aicolorbrain_aeqylh.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:14.178] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763230993/webdevelop_iodo8r.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:18.023] Browser WARN    Image with src "https://res.cloudinary.com/dohksngyi/image/upload/v1763256859/android_aryr72.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

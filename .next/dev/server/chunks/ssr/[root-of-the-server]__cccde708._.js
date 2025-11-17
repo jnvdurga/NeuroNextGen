@@ -306,10 +306,7 @@ function Home() {
                 heading: "Empower Your Business with Cutting-Edge Digital Solutions",
                 tagText: "Modern Web Experiences",
                 // highlight2="Scalable Mobile Apps"
-                description: "At NeuroNext Gen Solutions, we build, upgrade, and maintain powerful digital products — from responsive websites to high-performance mobile applications and complete IT systems.",
-                buttonText: "Start Your Project →",
-                buttonLink: "/form",
-                imageUrl: "https://res.cloudinary.com/dohksngyi/image/upload/v1763222431/2ndHome_vkca2v.webp"
+                description: "At NeuroNext Gen Solutions, we build, upgrade, and maintain powerful digital products — from responsive websites to high-performance mobile applications and complete IT systems."
             }, void 0, false, {
                 fileName: "[project]/Desktop/NeuroNextGen/NeuroNextGen/src/app/page.tsx",
                 lineNumber: 18,

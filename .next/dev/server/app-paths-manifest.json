@@ -1,5 +1,9 @@
 {
   "/ai-development/page": "app/ai-development/page.js",
+  "/ai-integration/page": "app/ai-integration/page.js",
+  "/ai-robotics/page": "app/ai-robotics/page.js",
+  "/mobile-development/page": "app/mobile-development/page.js",
   "/page": "app/page.js",
+  "/team/page": "app/team/page.js",
   "/web-development/page": "app/web-development/page.js"
 }

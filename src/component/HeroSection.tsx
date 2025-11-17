@@ -78,15 +78,18 @@ export default function HeroSection({
 
       {/* Right: Hero Image */}
       {imageUrl && (
-        <div className="relative w-full md:w-1/2 h-64 sm:h-96 md:h-auto mt-10 md:mt-0">
-          <Image
-            src={imageUrl}
-            alt="Hero Image"
-            fill
-            className="object-contain"
-            priority
-          />
-        </div>
+       <div className="relative w-full md:w-1/2 h-64 sm:h-96 md:h-[500px] mt-10 md:mt-0">
+  <Image
+    src={imageUrl}
+    alt="Hero Image"
+    fill
+    className="object-contain"
+    priority
+    loading="eager"
+    sizes="(max-width: 768px) 100vw, 50vw"
+  />
+</div>
+
       )}
 
       {/* Optional subtle gradient overlay */}
